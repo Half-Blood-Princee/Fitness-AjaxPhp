@@ -1,0 +1,91 @@
+header {
+    padding: 5px;
+    background-color: #CAE9FD;
+    border: 3px solid #90A0b2;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: #49525D;
+}
+
+.Form {
+    padding: 5px;
+    background-color: #EFFDF3;
+    border: 3px solid #90A0b2;
+    border-radius: 15px;
+    word-wrap: normal;
+    margin: 0 0 20px 0;
+}
+
+.NavItem {
+    display: inline-block;
+}
+
+h3 {
+    color: #49525D;
+    margin-right: 1%;
+}
+
+input {
+    height: 30px;
+    width: 15%;
+    border: 3px solid #90A0b2;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.KindOfSport {
+    background-color: white;
+    height: 35px;
+    width: 23%;
+    border: 3px solid #90A0b2;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.save {
+    background-color: #49525D;
+    color: white;
+    height: 35px;
+    width: 10%;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.Records {
+    background-color: #FCF0E9;
+    height: 160px;
+    width: 27%;
+    border-radius: 5px;
+    border: 3px solid #90A0b2;
+    position: absolute;
+    right: 8px;
+    top: 218px;
+}
+
+.TotalBox {
+    background-color: #F1EBFD;
+    width: 27%;
+    border-radius: 5px;
+    border: 3px solid #90A0b2;
+    position: absolute;
+    right: 8px;
+    top: 400px;
+}
+
+.TotalText {
+    margin-left: 5px;
+}
+
+.RecordsText {
+
+}
+
+.RecentActivities {
+    background-color: #FCF0E9;
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}

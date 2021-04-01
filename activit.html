@@ -1,0 +1,32 @@
+<?php
+include 'database.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activity Tracker</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Activity tracker</h1>
+</header>
+
+<!--Form-->
+<form id="regForm" class="Form">
+    <h3 class="NavItem">Add new activity:</h3>
+    <input class="NavItem" placeholder="Start Time" type="time" name="start_time">
+    <input class="NavItem" type="time" name="finish_time">
+    <input class="NavItem" placeholder="Distance" type="number" step="0.01" min="0" name="distance">
+    <select class="KindOfSport" name="active_type">
+        <option value="" disabled selected>Select active type</option>
+        <option value="Ride">Ride</option>
+        <option value="Run">Run</option>
+    </select>
+    <button type="submit" class="save" onclick="myFunction()">Save</button>
+</form>
+<a id="getElement"></a>
+<script src="script/script.js"></script>
+</body>
+</html>

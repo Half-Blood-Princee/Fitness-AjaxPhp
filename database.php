@@ -17,7 +17,7 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<td>" . $row['active_type'] . "</td>";
     echo "<td>" . $row['distance'] . "km" . "</td>";
     echo "<td>" . $row['finish_time'] - $row['start_time'] . "h" . "</td>";
-    echo "<td>" . $row['distance'] / $row[$row['finish_time'] - $row['start_time']] . "km/hour" . "</td>";
+    echo "<td>" . number_format($row['distance'] / $row[$row['finish_time'] - $row['start_time']] . "km/hour",2) . "</td>";
     echo "</tr>";
     echo "</table>";
 }
